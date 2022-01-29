@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="./assets/react.webp" alt="react-icon">
+				</section>
+				<section>
+					<h2>What is React?</h2>
+				</section>
+				<section>					
+					<section>
+						<h2>Why should I use React?</h2>
+					</section>
+					<section>
+						<img src="./assets/mem1.jpg" alt="react-mem">
+					</section>
+					<section>
+						<ul>
+							<li>Easy creation of dynamic applications</li>
+							<li>Improved performance</li>
+							<li>Reusable components</li>
+							<li>Unidirectional data flow </li>
+							<li>Small learning curve</li>
+							<li>It can be used for the development of both web and mobile apps </li>
+							<li>Dedicated tools for easy debugging</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Who uses React?</h2>
+					</section>
+					<section>
+						<img src="./assets/react-who.png" alt="brands">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Fundamentals of react</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>JSX</h2>
+					</section>
+					<section>
+						<p>JSX code example:</p>
+						<img src="./assets/code-example.jpg" alt="code-example">
+						<img class="mem2" src="./assets/mem2.jpg" alt="react-mem2">
+					</section>
+					<section>
+						<p>JSX example:</p>
+						<img class="code-examples" src="./assets/jsx-example.jpg" alt="jsx-code">
+						<p>JS example:</p>
+						<img class="code-examples" src="./assets/js-example.jpg" alt="js-code">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Components and Props</h2>
+					</section>
+					<section>
+						<p>Function-component:</p>
+						<img src="./assets/function-component.jpg" alt="function-component">
+						<p>Class-component:</p>
+						<img src="./assets/class-component.jpg" alt="class-component">
+					</section>
+					<section>
+						<p>Props example:</p>
+						<img src="./assets/props-example.jpg" alt="props-example">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>state</h2>						
+					</section>
+					<section>
+						<p>Example of a state object declaration</p>
+						<img src="./assets/state.png" alt="state-example">
+						<p>setState() example:</p>
+						<img src="./assets/setState.jpg" alt="setState()">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Virtual DOM</h2>
+					</section>
+					<section>
+						<img src="./assets/virtual-dom-mem.jpg" alt="virtual-dom-mem">
+					</section>
+					<section>
+						<img src="./assets/virtual-dom.png" alt="virtual-dom">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>react hooks</h2>
+					</section>
+					<section>
+						<p>useState()</p>
+						<img src="./assets/useState.png" alt="useState hook">
+					</section>
+					<section>
+						<p>useEffect()</p>
+					</section>
+					<section>
+						<img class="class-live" src="./assets/class-live.png" alt="class-live">
+					</section>
+					<section>
+						<p>useEffect example:</p>
+						<img class="class-live" src="./assets/useEffect.png" alt="useEffect">
+					</section>
+					<section>
+						<p>The componentWillUnmount effect:</p>
+						<img class="class-live" src="./assets/willUnmount.png" alt="willUnmount">
+					</section>
+					<section>
+						<p>Running useEffect only once:</p>
+						<img class="class-live" src="./assets/run-once.png" alt="useEffect-run-once">
+					</section>
+				</section>
+				<section>
+					<img class="the-end" src="./assets/end.gif" alt="end">
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
